@@ -23,4 +23,4 @@ function checkPlayingCards(cardFace, cardSuit) {
     return card;
 }
 
-
+module.exports = { checkPlayingCards }
