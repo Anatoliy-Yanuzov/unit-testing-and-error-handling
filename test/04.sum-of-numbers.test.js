@@ -6,7 +6,6 @@ describe('Test sum functionality', () => {
     it('Should add positive numbers', () => {
         // Arrange
         let input = [1, 2, 3, 4, 5];
-
         let expectedResult = 15;
         //Act
         let actualResult = sum(input);
